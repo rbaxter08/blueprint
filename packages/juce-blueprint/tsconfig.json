@@ -4,6 +4,7 @@
     "target": "es5",
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
+    "module": "CommonJS",
     "moduleResolution": "node"
   },
   "exclude": ["node_modules"],
