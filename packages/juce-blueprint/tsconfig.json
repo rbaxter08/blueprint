@@ -1,12 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "./cjs",
-    "allowJs": true,
     "target": "es5",
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
-    "module": "CommonJS",
-    "declaration": true,
+    "module": "system",
     "moduleResolution": "node"
   },
   "exclude": ["node_modules"],
