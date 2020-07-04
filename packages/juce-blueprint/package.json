@@ -6,7 +6,7 @@
   "types": "./cjs/index.d.ts",
   "scripts": {
     "build": "npm run build:js && npm run build:types",
-    "build:js": "tsc --outFile ./cjs/index.ts",
+    "build:js": "tsc",
     "build:types": "tsc --declaration --emitDeclarationOnly --outFile ./cjs/index.d.ts",
     "init": "node scripts/init.js"
   },

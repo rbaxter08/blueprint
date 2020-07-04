@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
+    "outDir": "./cjs",
     "target": "es5",
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
-    "module": "system",
     "moduleResolution": "node"
   },
   "exclude": ["node_modules"],
