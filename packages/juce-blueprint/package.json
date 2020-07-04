@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "BlueprintPlugin user interface in React.",
   "main": "./cjs/Blueprint.js",
-  "types": "./cjs/index.d.ts",
+  "types": "./cjs/Blueprint.d.ts",
   "scripts": {
     "build": "npm run build:js && npm run build:types",
     "build:js": "tsc",
-    "build:types": "tsc --declaration --emitDeclarationOnly --outFile ./cjs/index.d.ts",
+    "build:types": "tsc --declaration --emitDeclarationOnly --outFile ./cjs/Blueprint.d.ts",
     "init": "node scripts/init.js"
   },
   "author": "Nick Thompson",
