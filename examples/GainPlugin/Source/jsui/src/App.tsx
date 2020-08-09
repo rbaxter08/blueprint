@@ -11,7 +11,7 @@ import {
 } from 'juce-blueprint';
 
 
-function animatedDraw(ctx) {
+function animatedDraw(ctx: any) {
   let now = (Date.now() / 10);
   let width = now % 100;
   let red = Math.sqrt(width / 100) * 255;

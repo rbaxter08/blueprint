@@ -80,9 +80,10 @@ export function bindCanvasContextProperties(ctx: any) {
 }
 
 export interface CanvasProps {
-  onMeasure: (width: number, height: number) => void;
-  onDraw: (ctx: CanvasRenderingContext2D) => void;
+  onMeasure?: (width: number, height: number) => void;
+  onDraw?: (ctx: CanvasRenderingContext2D) => void;
   autoclear?: boolean;
+  animate?: boolean;
 }
 
 interface CanvasState {
